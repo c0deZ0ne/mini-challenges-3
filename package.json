@@ -3,7 +3,11 @@
   "version": "3.0.0",
   "description": "Lab 3 - challenges",
   "main": "jest",
+  
+  
   "scripts": {
+    "listS":"node ./src/list-sorting/sortlist_test.js",
+    "binaryR":"node ./src/binary-reversal/binaryReversalTry.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "husky install"
