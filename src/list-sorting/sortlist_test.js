@@ -14,6 +14,7 @@ function listSorting(needle, haystack) {
 
 const checkArray = (val,array)=>{
     let row = 0, col=0
+    if(array.length>)
     array.forEach(element => {
         //  console.log(String(element).split('').join('').trim().split('').filter(data=>(data!=','&&' ')).join('').count(2))            
             if(typeof (element)=='object'){
